@@ -20,17 +20,19 @@
     -webkit-transition: all 0.2s;
     .card-body {
         padding: 1.5rem;
+        display: flex;
+        align-items: center;
     }
     &:hover {
         border-color: var(--card-border-hover-color);
         .card-title {
-            color: #fff;
+            color: var(--gray-700); 
         }
     }
 }
 
 .card-title {
-    color: var(--card-title-color);
+    color: var(--gray-600); 
 }
 
 .card-text {

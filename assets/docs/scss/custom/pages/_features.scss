@@ -3,9 +3,9 @@
 //
 
 :root {
-    --feature-icon-color: var(--primary);
+    --feature-icon-color: var(--gray-500); 
+    --feature-link-hover-bg-color: var(--gray-100); 
     --feature-icon-faint: var(--gray-200);
-    --feature-link-hover-bg-color: var(--primary);
 }
 
 [data-dark-mode] {
@@ -161,8 +161,7 @@
             .icon-color i,
             .badge,
             .para {
-                color: var(--white) !important;
-                opacity: 0.5;
+                color: var(--gray-600) !important;
             }
             .content,
             .icon-color {

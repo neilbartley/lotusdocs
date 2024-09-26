@@ -8,50 +8,49 @@ $btn-link-hover-color:        var(--#{$prefix}link-hover-color);
 :root {
 
     // color-variables (HSL)
+    --blue-900-hsl: 215, 100%, 10%; 
+    --blue-800-hsl: 215, 95%, 30%;  
+    --blue-700-hsl: 215, 84%, 50%;  
+    --blue-600-hsl: 215, 100%, 58%; 
+    --blue-500-hsl: 214, 100%, 65%; 
+    --blue-400-hsl: 213, 100%, 74%; 
+    --blue-300-hsl: 213, 100%, 79%; 
+    --blue-200-hsl: 213, 100%, 85%; 
+    --blue-100-hsl: 214, 100%, 90%; 
+    --blue-50-hsl: 216, 100%, 96%;  
 
-    --blue-900-hsl: 243, 72%, 25%;
-    --blue-800-hsl: 239, 70%, 32%;
-    --blue-700-hsl: 235, 68%, 38%;
-    --blue-600-hsl: 231, 66%, 45%;
-    --blue-500-hsl: 226, 66%, 51%;
-    --blue-400-hsl: 221, 77%, 60%;
-    --blue-300-hsl: 217, 88%, 69%;
-    --blue-200-hsl: 212, 100%, 79%;
-    --blue-100-hsl: 207, 100%, 88%;
-    --blue-50-hsl: 198, 100%, 97%;
+    --green-900-hsl: 162, 76%, 15%; 
+    --green-800-hsl: 162, 74%, 32%; 
+    --green-700-hsl: 162, 74%, 42%; 
+    --green-600-hsl: 163, 43%, 53%; 
+    --green-500-hsl: 163, 43%, 61%; 
+    --green-400-hsl: 162, 44%, 68%; 
+    --green-300-hsl: 164, 43%, 75%; 
+    --green-200-hsl: 163, 44%, 83%; 
+    --green-100-hsl: 164, 45%, 90%; 
+    --green-50-hsl: 162, 72%, 93%;  
 
-    --green-900-hsl: 153, 54%, 20%;
-    --green-800-hsl: 145, 57%, 25%;
-    --green-700-hsl: 136, 60%, 29%;
-    --green-600-hsl: 128, 63%, 34%;
-    --green-500-hsl: 119, 66%, 39%;
-    --green-400-hsl: 114, 49%, 51%;
-    --green-300-hsl: 110, 56%, 62%;
-    --green-200-hsl: 105, 64%, 74%;
-    --green-100-hsl: 102, 69%, 86%;
-    --green-50-hsl: 98, 73%, 97%;
+    --red-900-hsl: 347, 77%, 8%;    
+    --red-800-hsl: 348, 75%, 40%;   
+    --red-700-hsl: 11, 100%, 57%;   
+    --red-600-hsl: 10, 100%, 61%;   
+    --red-500-hsl: 360, 80%, 69%;   
+    --red-400-hsl: 359, 80%, 75%;   
+    --red-300-hsl: 358, 78%, 81%;   
+    --red-200-hsl: 355, 77%, 86%;   
+    --red-100-hsl: 350, 75%, 92%;   
+    --red-50-hsl: 9, 100%, 96%;     
 
-    --red-900-hsl: 344, 48%, 33%;
-    --red-800-hsl: 348, 50%, 40%;
-    --red-700-hsl: 352, 53%, 46%;
-    --red-600-hsl: 356, 62%, 53%;
-    --red-500-hsl: 1, 84%, 59%;
-    --red-400-hsl: 356, 98%, 67%;
-    --red-300-hsl: 350, 100%, 73%;
-    --red-200-hsl: 345, 100%, 80%;
-    --red-100-hsl: 339, 100%, 88%;
-    --red-50-hsl: 332, 100%, 97%;
-
-    --yellow-900-hsl: 44, 60%, 17%;
-    --yellow-800-hsl: 45, 59%, 25%;
-    --yellow-700-hsl: 46, 58%, 33%;
-    --yellow-600-hsl: 48, 57%, 41%;
-    --yellow-500-hsl: 48, 55%, 49%;
-    --yellow-400-hsl: 50, 72%, 57%;
-    --yellow-300-hsl: 51, 98%, 65%;
-    --yellow-200-hsl: 54, 100%, 72%;
-    --yellow-100-hsl: 54, 100%, 81%;
-    --yellow-50-hsl: 55, 100%, 93%;
+    --yellow-900-hsl: 27, 100%, 12%;
+    --yellow-800-hsl: 27, 100%, 36%;
+    --yellow-700-hsl: 36, 100%, 51%;
+    --yellow-600-hsl: 36, 100%, 65%;
+    --yellow-500-hsl: 36, 100%, 70%;
+    --yellow-400-hsl: 36, 100%, 75%;
+    --yellow-300-hsl: 36, 100%, 80%;
+    --yellow-200-hsl: 36, 100%, 85%;
+    --yellow-100-hsl: 36, 100%, 90%;
+    --yellow-50-hsl: 36, 100%, 95%; 
 
     --cyan-900-hsl: 194, 100%, 16%;
     --cyan-800-hsl: 193, 100%, 21%;
@@ -64,16 +63,16 @@ $btn-link-hover-color:        var(--#{$prefix}link-hover-color);
     --cyan-100-hsl: 180, 100%, 83%;
     --cyan-50-hsl: 180, 100%, 94%;
 
-    --cardinal-900-hsl: 355, 68%, 21%;
-    --cardinal-800-hsl: 353, 67%, 29%;
-    --cardinal-700-hsl: 353, 65%, 37%;
-    --cardinal-600-hsl: 352, 63%, 45%;
-    --cardinal-500-hsl: 351, 67%, 52%;
-    --cardinal-400-hsl: 350, 89%, 60%;
-    --cardinal-300-hsl: 347, 100%, 68%;
-    --cardinal-200-hsl: 343, 100%, 75%;
-    --cardinal-100-hsl: 340, 100%, 83%;
-    --cardinal-50-hsl: 338, 100%, 96%;
+    --cardinal-900-hsl: 347, 77%, 8%;    
+    --cardinal-800-hsl: 348, 75%, 40%;   
+    --cardinal-700-hsl: 11, 100%, 57%;   
+    --cardinal-600-hsl: 10, 100%, 61%;   
+    --cardinal-500-hsl: 360, 80%, 69%;   
+    --cardinal-400-hsl: 359, 80%, 75%;   
+    --cardinal-300-hsl: 358, 78%, 81%;   
+    --cardinal-200-hsl: 355, 77%, 86%;   
+    --cardinal-100-hsl: 350, 75%, 92%;   
+    --cardinal-50-hsl: 9, 100%, 96%;     
 
     --magenta-900-hsl: 297, 63%, 21%;
     --magenta-800-hsl: 296, 62%, 29%;
@@ -206,19 +205,18 @@ $btn-link-hover-color:        var(--#{$prefix}link-hover-color);
     --dark-alt: #212529;
     --dark-secondary: #292a35;
 
-    // scss-docs-start gray-color-variables
-    --white: #ffffff;
-    --gray-50: #f7fafc;
-    --gray-100: #f8f9fa;
-    --gray-200: #e9ecef;
-    --gray-300: #dee2e6;
-    --gray-400: #ced4da;
-    --gray-500: #adb5bd;
-    --gray-600: #6c757d;
-    --gray-700: #495057;
-    --gray-800: #343a40;
-    --gray-900: #212529;
-    --black: #000000;
+    --white: #ffffff;               
+    --gray-50: #f9fafb;             
+    --gray-100: #f0f2f5;            
+    --gray-200: #d1d9e0;            
+    --gray-300: #bcc7d2;            
+    --gray-400: #a7b6c4;            
+    --gray-500: #8194a6;            
+    --gray-600: #617385;            
+    --gray-700: #425165;            
+    --gray-800: #263344;            
+    --gray-900: #111824;            
+    --black: #000000;               
 
     // Links
     //
@@ -300,7 +298,7 @@ $btn-link-hover-color:        var(--#{$prefix}link-hover-color);
     // Cards
     --card-bg: var(--white);
     --card-border-color: var(--gray-400);
-    --card-border-hover-color: var(--primary);
+    --card-border-hover-color: var(--gray-50);
 
     // Sidebar
     --sidebar-primary: var(--primary);
